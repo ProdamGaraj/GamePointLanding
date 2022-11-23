@@ -1,0 +1,115 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Dreamz_PC</title>
+    <link rel="stylesheet" href="css\Dreamz_style.css">
+
+</head>
+<body>
+    <div class="header">
+        <div class="container_header">
+            <div class="left-side-menu">Home</div>
+            <img class="header-logo" src="img\logo.png">
+            <div class="right-side-menu">
+                <a href="#about-us-teleport" class="header-about">About</a> <!--Переносит в about-->
+                <a href="#header-teleport">Contact</a> <!--Переносит в Header-->
+            </div>
+        </div>
+    </div>
+    <div class="block-about_us">
+        <div class="gradient"></div>
+        <h1 class="About-content">Masterfully Crafted</h1>
+        <h1 class="About-content-2">Gaming Desktops</h1>
+        <p class="block-about_us-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
+        <a href="files\UisTop.pdf" download="" target="_blank">
+            <button class="download" download>Learn more</button>
+        </a>
+        <img class="about-us_pc-photo" src="img\bigComputer.svg">
+    </div>
+    <div class="our-pc">
+        <div class="header-our_pc">Our PCs</div>
+        <div class="products_menu">
+            <div class="product-position">
+                <img class="product-photo" src="img\smallComputers.svg">
+            </div>
+            <div class="product-position">
+                <img class="product-photo" src="img\smallComputers.svg">
+            </div>
+            <div class="product-position">
+                <img class="product-photo" src="img\smallComputers.svg">
+            </div>
+            <div class="product-position">
+                <img class="product-photo" src="img\smallComputers.svg">
+            </div>
+            <div class="product-position">
+                <img class="product-photo" src="img\smallComputers.svg">
+            </div>
+            <div class="product-position">
+                <img class="product-photo" src="img\smallComputers.svg">
+            </div>
+        </div>
+        <div class="our-pc-top">
+            <img src="">
+        </div>
+        <div class="our-pc-bottom">
+            <img src="">
+        </div>
+    </div>
+    <div class="Accessories">
+        <h2 class="Accessories-name">Accessories</h2>
+        <div class="wrapper">
+            <div class="slider">
+                <div class="slider__item filter">
+                    <img src="img\bigComputer.svg" alt="">
+                </div>
+                <div class="slider__item">
+                    <img src="img\bigComputer.svg" alt="">
+                </div>
+                <div class="slider__item filter">
+                    <img src="img\bigComputer.svg" alt="">
+                </div>
+                <div class="slider__item">
+                    <img src="img\bigComputer.svg" alt="">
+                </div>
+                <div class="slider__item">
+                    <img src="img\bigComputer.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="sale-photo-block">
+            <img class="sale-photo" src="img\advertPhoto.svg">
+        </div>
+
+        <div class="About_us">
+            <h2 class="about_us-header" id="about-us-teleport">ABOUT US</h2>
+            <div class="abot_us-content">
+                <div class="about_us-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p></div>
+                <div>
+                    <div class="about_us-photo"></div>
+                </div>
+            </div>
+        </div>
+        <iframe src="http://wikimapia.org/#lat=41.305143&lon=69.233780&z=13&l=&ifr=1&m=w" class="block_map" frameborder="0"></iframe>
+        <div class="footer">
+            <img src="">
+            <div id="header-teleport" class="footer-info">
+                <div class="footer-column-info">
+                    <div>About</div>
+                    <div>About</div>
+                </div>
+                <div class="footer-column-info">
+                    <div>Contact</div>
+                    <div>Contact</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js\script.js"></script>
+    <script src="js\slick.min.js"></script>
+    <script src="js\download.js"></script>
+</body>
+</html>
